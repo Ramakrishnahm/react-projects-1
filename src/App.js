@@ -1,9 +1,16 @@
 import "./App.css";
+import Header from "./components/header/Header";
+import Main from "./components/main/Main";
+import NavBar from "./components/navbar/Navbar";
+import Products from "./components/products/Products";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello React Projects</h1>
+      <Header />
+      <NavBar />
+      <Main />
+      <Products />
     </div>
   );
 }
