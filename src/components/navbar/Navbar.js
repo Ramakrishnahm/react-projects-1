@@ -9,9 +9,15 @@ const NavBar = () => {
         alt="logo"
       />
       <div className="nav-list">
-        <p className="nav-item">Home</p>
-        <p className="nav-item">products</p>
-        <p className="nav-item">carts</p>
+        <p className="nav-item">
+          <a href="#">Home</a>
+        </p>
+        <p className="nav-item">
+          <a href="#">products</a>
+        </p>
+        <p className="nav-item">
+          <a href="#">carts</a>
+        </p>
       </div>
       <div className="nav-icons">
         <p style={{ fontSize: "20px" }}>

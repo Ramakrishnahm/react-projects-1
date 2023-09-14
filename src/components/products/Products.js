@@ -4,8 +4,8 @@ import Product from "./Product";
 const Products = () => {
   return (
     <div className="product">
-      {data.map((item) => (
-        <Product data={item} />
+      {data.map((item, index) => (
+        <Product key={index} data={item} />
       ))}
     </div>
   );
