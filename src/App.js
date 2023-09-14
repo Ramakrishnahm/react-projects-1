@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 import NavBar from "./components/navbar/Navbar";
 import Products from "./components/products/Products";
+import SignUp from "./components/signup/Signup";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <h1 className="featured-product">Featured Products</h1>
       <Products />
       <LoginForm />
+      <SignUp />
     </div>
   );
 }
