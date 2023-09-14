@@ -10,6 +10,7 @@ function App() {
       <Header />
       <NavBar />
       <Main />
+      <h1 className="featured-product">Featured Products</h1>
       <Products />
     </div>
   );
