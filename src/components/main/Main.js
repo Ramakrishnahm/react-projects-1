@@ -1,4 +1,5 @@
 import NavBar from "../navbar/Navbar";
+import { Link } from "react-router-dom";
 import Products from "../products/Products";
 import React from "react";
 const Main = () => {
@@ -24,7 +25,7 @@ const Main = () => {
               borderRadius: "10px",
             }}
           >
-            our products
+            <Link to="/products">our products</Link>
           </button>
         </div>
         <img
