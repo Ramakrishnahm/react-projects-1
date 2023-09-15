@@ -62,12 +62,13 @@
   flex: 1;
 }
 .product {
-  margin: 30px 0;
-  background-color: rgb(240, 227, 227);
+  border-radius: 10px;
+  margin: 40px 50px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgb(204, 227, 233);
   display: flex;
   gap: 40px;
   justify-content: center;
-  box-shadow: 12px 12px 2px 1px rgb(204, 193, 193);
 }
 .productList {
   margin: 30px;
@@ -153,4 +154,47 @@
   font-size: 18px;
   line-height: 2;
   font-size: 1rem;
+}
+
+.store-form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgb(153, 215, 231);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 40px 50px 20px;
+}
+.product-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.form-option {
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.form-input1 {
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+.form-btn {
+  width: 200px;
+  padding: 10px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.searchbtn {
+  background-color: blue;
+}
+.resetbtn {
+  background-color: rgb(103, 5, 103);
 }

@@ -18,7 +18,7 @@ const NavBar = () => {
           <Link to="/about">About</Link>
         </p>
         <p className="nav-item">
-          <Link to="/products">Products</Link>
+          <Link to="/store">Products</Link>
         </p>
         <p className="nav-item">
           <Link to="/cart">Cart</Link>
