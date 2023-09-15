@@ -1,10 +1,10 @@
-import data from "../../data";
+import { comfydata } from "../../data";
 import Product from "./Product";
 
 const Products = () => {
   return (
     <div className="product">
-      {data.map((item, index) => (
+      {comfydata.map((item, index) => (
         <Product key={index} data={item} />
       ))}
     </div>

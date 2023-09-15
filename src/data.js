@@ -1,4 +1,4 @@
-export default [
+export const comfydata = [
   {
     avatar:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMlRnalLvKNKpdmJxQqOYDCml5SoKkcq4g-g&usqp=CAU",
