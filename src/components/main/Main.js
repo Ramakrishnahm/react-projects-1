@@ -1,8 +1,10 @@
+import NavBar from "../navbar/Navbar";
 import Products from "../products/Products";
 import React from "react";
 const Main = () => {
   return (
     <React.Fragment>
+      <NavBar />
       <div className="main-comp">
         <div className="main-section">
           <h1 style={{ fontSize: "35px", color: "gray" }}>

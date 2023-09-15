@@ -11,9 +11,13 @@
   font-weight: 400;
   text-transform: capitalize;
   background-color: black;
-  color: white;
-  padding: 0 20px;
 }
+.Header-comp a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
 .Nav-comp {
   display: flex;
   align-items: center;
@@ -34,7 +38,6 @@
 }
 .nav-item:hover {
   background-color: rgb(193, 193, 242);
-  color: white;
   padding: 10px;
   border-radius: 10%;
 }

@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
       <div className="Header-comp">
-        <p>signin </p>
-        <p>Create Account</p>
+        <Link to="/login">Login</Link>
+        <Link to="/signup">SignUp</Link>
       </div>
     </>
   );
