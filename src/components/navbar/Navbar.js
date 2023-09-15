@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import { BsFillCartDashFill } from "react-icons/bs";
 import { BsFillMoonFill } from "react-icons/bs";
+
 const NavBar = () => {
   return (
     <div className="Nav-comp">
@@ -10,13 +12,16 @@ const NavBar = () => {
       />
       <div className="nav-list">
         <p className="nav-item">
-          <a href="#">Home</a>
+          <Link to="/">Home</Link>
         </p>
         <p className="nav-item">
-          <a href="#">products</a>
+          <Link to="/about">About</Link>
         </p>
         <p className="nav-item">
-          <a href="#">carts</a>
+          <Link to="/products">Products</Link>
+        </p>
+        <p className="nav-item">
+          <Link to="/cart">Cart</Link>
         </p>
       </div>
       <div className="nav-icons">
