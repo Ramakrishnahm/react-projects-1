@@ -8,12 +8,14 @@ import Home from "./components/navbar/Home";
 import Cart from "./components/navbar/Cart";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Store from "./components/navbar/Store";
+import NavBar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
+        <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
