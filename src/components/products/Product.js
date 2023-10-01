@@ -1,5 +1,5 @@
 const Product = (props) => {
-  console.log(props);
+  // console.log(props);
   const { avatar, name, rs } = props.data;
   return (
     <div className="productList">

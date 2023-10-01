@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 const SignUp = (input) => {
-  const [login, setLogin] = useState({ username: "", password: "", email: "" });
+  const [login, setLogin] = useState({ usrama: "",  email: "",password: "", });
 
   const handleChange = (ev) => {
     const { name, value } = ev && ev.target;

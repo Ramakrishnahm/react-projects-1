@@ -1,21 +1,21 @@
 export const comfydata = [
   {
     avatar:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMlRnalLvKNKpdmJxQqOYDCml5SoKkcq4g-g&usqp=CAU",
+      "https://images.pexels.com/photos/5910952/pexels-photo-5910952.jpeg?auto=compress&cs=tinysrgb&w=600",
 
-    name: "Avant-Garde",
-    rs: "$230",
+    name: "Bananas",
+    rs: "$200",
   },
   {
-    name: "Coffe-table",
+    name: "Fruits",
+    rs: "$300",
+    avatar:
+      "https://images.pexels.com/photos/17119475/pexels-photo-17119475/free-photo-of-man-selling-fresh-fruit-at-a-market.jpeg?auto=compress&cs=tinysrgb&w=600",
+  },
+  {
+    name: "Books",
     rs: "$400",
     avatar:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToRooEkgUSA8K9EFYl5j7SbTmV_78crkCpZA&usqp=CAU",
-  },
-  {
-    name: "Comy-Bed",
-    rs: "$438",
-    avatar:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgDj_o2i7magTC_PSwu1bLpPcrZcUfJjmMqA&usqp=CAU",
+      "https://images.pexels.com/photos/4861299/pexels-photo-4861299.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
 ];
